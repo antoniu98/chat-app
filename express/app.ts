@@ -2,9 +2,9 @@ import express from "express";
 import Serverless from "serverless-http";
 import dotenv from 'dotenv';
 import cors from 'cors';
-// import { OpenAI } from 'openai';
+import { OpenAI } from 'openai';
 import { Request, Response } from 'express';
-// import { connectToDatabase, Conversation, Message, mockConversations, mockMessages } from "./models";
+import { connectToDatabase, Conversation, Message, mockConversations, mockMessages } from "./models";
 
 // Load environment variables from .env file
 dotenv.config();
